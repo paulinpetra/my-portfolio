@@ -21,9 +21,12 @@ const MyWork = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <button className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold">
+              <a
+                href="https://github.com/paulinpetra/Moolang-shopping-cart-app"
+                className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold"
+              >
                 <label>See More</label>
-              </button>
+              </a>
             </div>
 
             <div className="bg-white flex flex-col justify-center items-center py-8 px-4  gap-4 opacity-95">
@@ -38,9 +41,12 @@ const MyWork = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <button className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold">
+              <a
+                href="https://github.com/paulinpetra/redux-todo"
+                className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold"
+              >
                 <label>See More</label>
-              </button>
+              </a>
             </div>
           </div>
         </div>
