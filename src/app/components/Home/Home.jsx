@@ -26,11 +26,11 @@ const Home = () => {
           </div>
           <div className="flex flex-col lg:flex-row justify-center items-center  gap-10">
             <div className="flex flex-col lg:items-start justify-center items-center gap-2 p-5">
-              <h1 className="text-[#70aea2] text-4xl font-bold">
+              <h1 className="text-[#88a296] text-4xl font-bold">
                 Petra Paulin
               </h1>
-              <label className="text-[#F0E3CA] text-3xl">React Developer</label>
-              <span className="text-[#F0E3CA] text-lg text-center lg:text-start">
+              <label className="text-[#151b3f] text-3xl">React Developer</label>
+              <span className="text-[#151b3f] text-lg text-center lg:text-start">
                 React developer looking for an internship where I can continue
                 to learn more about Web Development.
               </span>

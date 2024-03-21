@@ -8,10 +8,10 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <>
-      <div className="bg-[#b8c5bf] z-20 flex justify-around items-center gap-20  lg:gap-5 p-4 font-Inconsolata font-bold text-white sticky top-0 opacity-90">
-        <h1 className="text-2xl lg:text-4xl text-[#F0E3CA] font-bold">
-          <span className="text-[#FF8303]">&lt;/P</span>etra
-          <span className="text-[#FF8303]">&gt;</span>
+      <div className="bg-[#88a296] z-20 flex justify-around items-center gap-20  lg:gap-5 p-4 font-Inconsolata font-extrabold text-white sticky top-0 opacity-90">
+        <h1 className="text-2xl lg:text-4xl text-[#151b3f] font-extrabold">
+          <span className="text-white">&lt;/P</span>etra
+          <span className="text-white">&gt;</span>
         </h1>
 
         <nav className="">
@@ -46,7 +46,7 @@ const Navbar = () => {
               </div>
               <ul className="flex flex-col items-center justify-between min-h-[250px]">
                 {menuList.map((item) => (
-                  <li key={item.id} className="hover:text-[#FF8303] text-lg">
+                  <li key={item.id} className="hover:text-[#ffdebc] text-lg">
                     <Link href={item.path}>{item.title}</Link>
                   </li>
                 ))}
@@ -55,7 +55,7 @@ const Navbar = () => {
           </section>
           <ul className=" items-center justify-around gap-10 DESKTOP-MENU hidden  lg:flex">
             {menuList.map((item) => (
-              <li key={item.id} className="hover:text-[#FF8303] text-lg">
+              <li key={item.id} className="hover:text-[#ffdebc] text-lg">
                 <Link href={item.path}>{item.title}</Link>
               </li>
             ))}
