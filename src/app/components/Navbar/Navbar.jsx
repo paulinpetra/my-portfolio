@@ -8,9 +8,9 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <>
-      <div className="bg-[#1F1E1B] z-20 flex justify-around items-center gap-20  lg:gap-5 p-4 font-Inconsolata font-bold text-white sticky top-0 opacity-90">
+      <div className="bg-[#b8c5bf] z-20 flex justify-around items-center gap-20  lg:gap-5 p-4 font-Inconsolata font-bold text-white sticky top-0 opacity-90">
         <h1 className="text-2xl lg:text-4xl text-[#F0E3CA] font-bold">
-          <span className="text-[#FF8303]">&lt;/A</span>nkit
+          <span className="text-[#FF8303]">&lt;/P</span>etra
           <span className="text-[#FF8303]">&gt;</span>
         </h1>
 

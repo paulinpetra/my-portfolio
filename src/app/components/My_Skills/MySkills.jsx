@@ -6,7 +6,7 @@ const MySkills = () => {
   return (
     <>
       <section id="skills">
-        <div className="bg-[#1F1E1B] flex flex-col justify-center items-center font-Inconsolata  gap-9 flex-wrap py-44">
+        <div className="bg-[#ffeddb] flex flex-col justify-center items-center font-Inconsolata  gap-9 flex-wrap py-44">
           <div className="flex justify-center items-center">
             <h1 className="text-[#FF8303] text-3xl font-semibold">My Skills</h1>
           </div>
