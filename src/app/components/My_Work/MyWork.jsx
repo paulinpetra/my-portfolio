@@ -22,7 +22,7 @@ const MyWork = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <a
-                href="https://github.com/paulinpetra/Moolang-shopping-cart-app"
+                href="https://moolang-shopping-cart-app.vercel.app/"
                 className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold"
               >
                 <label>See More</label>
@@ -42,7 +42,7 @@ const MyWork = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <a
-                href="https://github.com/paulinpetra/redux-todo"
+                href="https://redux-todo-ten-pied.vercel.app/"
                 className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold"
               >
                 <label>See More</label>
