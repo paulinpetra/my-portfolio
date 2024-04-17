@@ -39,12 +39,14 @@ const Contacts = () => {
                   height={32}
                   alt="image not found"
                 />
-                <Link
+                <a
                   className="text-white text-2xl text-center"
                   href="https://github.com/paulinpetra"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Petra Paulin
-                </Link>
+                </a>
               </div>
             </div>
           </div>
