@@ -11,6 +11,26 @@ const MyWork = () => {
 
           <div className="bg-white flex flex-col justify-center items-center py-8 px-4  gap-4 opacity-95">
             <h1 className="text-[#151b3f] text-3xl font-semibold">
+              Zoom redesign
+            </h1>
+            <label className="text-[#151b3f]  text-base">
+              HTML, Tailwind CSS, JS, React
+            </label>
+            <span className="underline w-[200px] border border-solid border-[#88a296]"></span>
+            <p className="text-[#151b3f]  text-base text-left px-2">
+              A redesign of the front page of zoom.us to make it more
+              user-friendly and and so that it follows design rules.
+            </p>
+            <a
+              href="https://zoom-redesign-phi.vercel.app/"
+              className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold"
+            >
+              <label>See More</label>
+            </a>
+          </div>
+
+          <div className="bg-white flex flex-col justify-center items-center py-8 px-4  gap-4 opacity-95">
+            <h1 className="text-[#151b3f] text-3xl font-semibold">
               Radio player
             </h1>
             <label className="text-[#151b3f]  text-base">
@@ -64,26 +84,6 @@ const MyWork = () => {
               </p>
               <a
                 href="https://moolang-shopping-cart-app.vercel.app/"
-                className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold"
-              >
-                <label>See More</label>
-              </a>
-            </div>
-
-            <div className="bg-white flex flex-col justify-center items-center py-8 px-4  gap-4 opacity-95">
-              <h1 className="text-[#151b3f] text-3xl font-semibold">
-                Zoom redesign
-              </h1>
-              <label className="text-[#151b3f]  text-base">
-                HTML, Tailwind CSS, JS, React
-              </label>
-              <span className="underline w-[200px] border border-solid border-[#88a296]"></span>
-              <p className="text-[#151b3f]  text-base text-left px-2">
-                A redesign of the front page of zoom.us to make it more
-                user-friendly and and so that it follows design rules.
-              </p>
-              <a
-                href="https://zoom-redesign-phi.vercel.app/"
                 className="bg-[#88a296] py-2 px-2 rounded-md text-white hover:font-bold"
               >
                 <label>See More</label>
